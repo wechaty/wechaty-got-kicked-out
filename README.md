@@ -23,7 +23,20 @@ bot.use(GotKicked({
          by ${remover ? remove.name(): 'it self'} 
          --date：${date}
          `)
+   },
+   /*
+   comming soon... 
+   whiltList:{
+      id:"19710388933@chatroom"
+      // or
+      id:["19710388933@chatroom","98345982793@chatroom"]
+      // or
+      topic:"微信群001"
+      // or
+      topic:["微信群001","微信群002"]
    }
+   */
+   
 }))
 
 bot.start()

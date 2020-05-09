@@ -1,0 +1,32 @@
+{
+  "name": "wechaty-got-kicked-out",
+  "version": "1.0.0",
+  "description": "bot got kicked out of room",
+  "main": "dist/src/index.js",
+  "author": "LegendaryJesse",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --ext js,ts --exec 'ts-node ./src/index.ts --inspect'",
+    "test:unit": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\"",
+    "test": "npm run test:unit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "wechaty",
+    "wechaty-plugin",
+    ""
+  ],
+  "devDependencies": {
+    "@chatie/tsconfig": "^0.10.1",
+    "sinon": "^9.0.2",
+    "ts-node": "^8.10.1",
+    "tstest": "^0.4.10",
+    "typescript": "^3.8.3",
+    "wechaty": "^0.39.26",
+    "wechaty-puppet-mock": "^0.20.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,4 +1,10 @@
-# Wechaty-Got-Kicked-Out [![Build Status](https://travis-ci.org/JesseWeb/wechaty-got-kicked-out.svg?branch=master)](https://travis-ci.org/JesseWeb/wechaty-got-kicked-out)
+# Wechaty-Got-Kicked-Out
+
+[![Wechaty Plugin Contrib](https://img.shields.io/badge/Wechaty%20Plugin-GotKicked-brightgreen.svg)](https://github.com/wechaty/wechaty-got-kicked-out)
+[![Wechaty Plugin Contrib](https://img.shields.io/badge/Wechaty%20Plugin-Directory-brightgreen.svg)](https://github.com/wechaty/wechaty-plugin-contrib#wechaty-plugin-directory)
+[![Build Status](https://travis-ci.org/JesseWeb/wechaty-got-kicked-out.svg?branch=master)](https://travis-ci.org/JesseWeb/wechaty-got-kicked-out)
+
+
 ## What is this?
 this is a wechaty plugin to monitor whether your bot got kicked out of group chat.
 

@@ -2,12 +2,12 @@ import { WechatyPlugin, log, Wechaty, Room, Contact } from "wechaty";
 
 export interface GotKickOptions {
    onKick(room: Room, remover: Contact | undefined, date: Date | undefined): void,
-   whiltList?: I_WhiltList
+   // whiltList?: I_WhiltList
 }
-export interface I_WhiltList {
-   id: string | string[],
-   topic: string | string[]
-}
+// export interface I_WhiltList {
+//    id: string | string[],
+//    topic: string | string[]
+// }
 export const defaultOptions: GotKickOptions = {
    async onKick(room, remover) {
       log.info(`bot just got kick out of [${await room.topic()}]${room.id} by ${remover?.name() || 'it self'}`)

@@ -11,6 +11,16 @@ this is a wechaty plugin to monitor whether your bot got kicked out of group cha
 
 just few line of code to implement this instead fussy judging.
 
+
+## Installation
+
+```bash
+yarn add "wechaty-got-kicked-out"
+```
+or
+```bash
+npm install "wechaty-got-kicked-out" --save
+```
 ## Usage
 
 ```javascript

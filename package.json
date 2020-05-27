@@ -1,6 +1,6 @@
 {
-  "name": "wechaty-got-kicked",
-  "version": "1.0.0",
+  "name": "wechaty-got-kicked-out",
+  "version": "1.0.1",
   "description": "bot got kicked out of room, will you do something?",
   "main": "dist/src/index.js",
   "author": "LegendaryJesse",
@@ -26,9 +26,8 @@
     "tstest": "^0.4.10",
     "typescript": "^3.8.3",
     "wechaty": "^0.39.26",
-    "wechaty-puppet-mock": "^0.20.4"
-  },
-  "dependencies": {
+    "wechaty-puppet-mock": "^0.20.4",
     "nodemon": "^2.0.3"
-  }
+  },
+  "dependencies": {}
 }

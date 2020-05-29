@@ -1,6 +1,6 @@
 {
   "name": "wechaty-got-kicked-out",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "bot got kicked out of room, will you do something?",
   "main": "dist/src/index.js",
   "author": "LegendaryJesse",

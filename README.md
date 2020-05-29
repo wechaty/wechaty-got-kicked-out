@@ -35,7 +35,7 @@ const bot = new Wechaty({
 bot.use(GotKicked({
    onKick(room, remover, date){
       console.log(`
-         bot just got kick out of ${await room.topic()}]${room.id} 
+         bot just got kick out of ${await room.topic()}[${room.id}]
          by ${remover ? remove.name(): 'it self'} 
          --date：${date}
          `)
